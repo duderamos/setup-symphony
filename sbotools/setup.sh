@@ -3,8 +3,8 @@
 wget https://pink-mist.github.io/sbotools/downloads/sbotools-2.7-noarch-1_SBo.tgz -O /tmp/sbotools-2.7-noarch-1_SBo.tgz &&
   installpkg /tmp/sbotools-2.7-noarch-1_SBo.tgz
 
-mkdir -p /etc/sbotools &&
-  wget https://raw.githubusercontent.com/duderamos/setup-symphony/master/sbotools/sbotools.conf -O /etc/sbotools/sbotools.conf
+mkdir -p /etc/sbotools
+  cp sbotools/sbotools.conf /etc/sbotools
 
 sbocheck &&
   sboinstall android-studio \
