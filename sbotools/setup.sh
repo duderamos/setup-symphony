@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [ -f "/var/log/packages/sbotools-2.7-noarch-1_SBo" ] ; then
+if [ ! -f "/var/log/packages/sbotools-2.7-noarch-1_SBo" ] ; then
   wget https://pink-mist.github.io/sbotools/downloads/sbotools-2.7-noarch-1_SBo.tgz -O /tmp/sbotools-2.7-noarch-1_SBo.tgz &&
     installpkg /tmp/sbotools-2.7-noarch-1_SBo.tgz
 fi
