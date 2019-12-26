@@ -15,7 +15,7 @@ conntrack-tools:ADD
 crda:ADD
 curl:ADD
 cyrus-sasl:ADD
-dhcp:OPT
+dhcp:SKP
 dhcpcd:ADD
 dnsmasq:ADD
 dovecot:SKP

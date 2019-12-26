@@ -24,7 +24,7 @@ gcc-objc:SKP
 gdb:ADD
 gettext-tools:ADD
 git:ADD
-gnucobol:OPT
+gnucobol:SKP
 gperf:ADD
 guile:ADD
 help2man:ADD

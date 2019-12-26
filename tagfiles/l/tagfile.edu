@@ -16,7 +16,7 @@ aalib:ADD
 adwaita-icon-theme:ADD
 akonadi:SKP
 alsa-lib:ADD
-alsa-oss:OPT
+alsa-oss:SKP
 alsa-plugins:ADD
 apr:SKP
 apr-util:SKP
@@ -115,7 +115,7 @@ iso-codes:ADD
 jansson:ADD
 jasper:ADD
 jemalloc:ADD
-jmtpfs:OPT
+jmtpfs:SKP
 json-c:ADD
 json-glib:ADD
 judy:ADD
@@ -222,9 +222,9 @@ libxml2:ADD
 libxslt:ADD
 libyaml:ADD
 libzip:ADD
-lmdb:OPT
-loudmouth:OPT
-lzo:OPT
+lmdb:SKP
+loudmouth:SKP
+lzo:ADD
 media-player-info:ADD
 mhash:ADD
 mm:ADD
@@ -316,7 +316,7 @@ urwid:ADD
 utf8proc:ADD
 v4l-utils:ADD
 vte:ADD
-wavpack:OPT
+wavpack:SKP
 xapian-core:ADD
 zlib:ADD
-zstd:OPT
+zstd:ADD
